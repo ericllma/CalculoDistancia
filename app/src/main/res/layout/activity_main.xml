@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editDistancia"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="@string/distancia"
+            android:inputType="numberDecimal"
+            tools:ignore="InvalidId" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/totalKM"
+            android:layout_gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/editPreco"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="@string/Preco"
+            android:inputType="numberDecimal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/totalGasolina"
+            android:layout_gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/editAutonomia"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="@string/Autonomia"
+            android:inputType="numberDecimal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/KMporL"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gastoTotalText"
+        android:textSize="25dp"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gastoTotal"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/botao"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/botaoCalcular" />
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Calculo Distancia</string>
+    <string name="distancia">Distancia</string>
+    <string name="totalKM">Total de quilômetros</string>
+    <string name="Preco">Preço</string>
+    <string name="totalGasolina">Total gasolina</string>
+    <string name="Autonomia">Autonomia</string>
+    <string name="KMporL">KM/L</string>
+    <string name="gastoTotalText">Seu gasto total será de:</string>
+    <string name="gastoTotal">R$ 0</string>
+    <string name="botaoCalcular">calcular</string>
+    <string name="alerta_preencher_campos">Preencha todos os campos</string>
+    <string name="alerta_valores_validos">Informe valores válidos</string>
+</resources>
